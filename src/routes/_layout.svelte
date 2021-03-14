@@ -24,7 +24,7 @@
 
 <Header
   company={segment?.toUpperCase() || ""}
-  platformName="nyelvtanulas.online"
+  platformName="Sapper Template with Tailwindcss and IBM Carbon"
   bind:isSideNavOpen
 >
   <div slot="skip-to-content">
@@ -66,7 +66,6 @@
 <style>
   main {
     position: relative;
-    max-width: 56em;
     padding: 2em;
     margin-top: 3rem;
     box-sizing: border-box;
