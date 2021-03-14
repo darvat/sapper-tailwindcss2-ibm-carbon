@@ -1,4 +1,4 @@
-# sapper-template
+# sapper-tailwindcss2-ibm-carbon
 
 This is a fork of Sapper's project template to enable usage of Tailwindcss. Refer to [Sapper](https://github.com/sveltejs/sapper) for more info.
 
