@@ -22,7 +22,11 @@
 
 <Tailwindcss />
 
-<Header company="IBM" platformName="Carbon Svelte" bind:isSideNavOpen>
+<Header
+  company={segment?.toUpperCase() || ""}
+  platformName="nyelvtanulas.online"
+  bind:isSideNavOpen
+>
   <div slot="skip-to-content">
     <SkipToContent />
   </div>
